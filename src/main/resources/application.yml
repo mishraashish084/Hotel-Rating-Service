@@ -1,32 +1,16 @@
 server:
-<<<<<<< HEAD
-  port: 8082
+  port: 8082  # Adjust the port as needed, choose 8082 or 8081
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/microservice
-    username: root
-    password: password
-    driver-class-name: com.mysql.cj.jdbc.Driver  # Corrected indentation
-=======
-  port: 8081
-
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/microservices
+    url: jdbc:mysql://localhost:3306/microservice  # Ensure the database name is correct
     username: root
     password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
->>>>>>> e0887c12da21dbeae55f581147ef57d0aa753d0c
 
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-<<<<<<< HEAD
-  spring:
-   jpa:
     properties:
       hibernate.dialect: org.hibernate.dialect.MySQLDialect
-=======
->>>>>>> e0887c12da21dbeae55f581147ef57d0aa753d0c
