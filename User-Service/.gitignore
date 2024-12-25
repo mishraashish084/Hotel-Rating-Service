@@ -1,0 +1,98 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+# Ignore target directory
+target/
+
+# Ignore mvnw and mvnw.cmd files
+mvnw
+mvnw.cmd
+
+# Ignore IntelliJ project files
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore all IDE specific files (for example, VS Code, Eclipse, etc.)
+.vscode/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# Maven
+/target/
+/.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IntelliJ
+*.iml
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Maven Wrapper
+mvnw
+mvnw.cmd
+
+# Log files
+*.log
+# macOS-specific files
+.DS_Store
+
+# Maven build files
+target/
+*.iml
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IntelliJ IDEA project files
+.idea/
+*.class
+
+# Eclipse project files
+*.project
+*.classpath
+
+# Ignore Git metadata of submodules
+Hotel-Service/.git/
+RatingService/.git/
+User-Service/.git/
+ServiceRegistry/.git/
